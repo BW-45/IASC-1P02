@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>The flower shop</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+	<header>
+		<div class="head">
+			<h1>Deborahs</h1>
+			<img src="images/avator.png" alt="personal center">
+		</div>
+		<nav>
+			<a href="home.html">Home</a>
+			<a class="active-link" href="menu.html">Menu</a>
+			<a href="contact.html">Contact</a>
+		</nav>
+	</header>
+	<main>
+		<div class="content">
+			<p class="desc">When you order flowers online from Proflowers, you’re helping to support locally owned florists in your own community.
+				We’re proud to partner with local florists and provide them with technology and other digital tools that allow their
+				businesses to flourish. We make sure to only partner with local florists that we trust, and who have the same high standards
+				for flowers as we do. Through these partnerships, we're able to offer you fresh arrangements and same day flower delivery.
+				Support your neighborhood florist and get the freshest flower arrangements at low prices.</p>
+			<div class="card-menu">
+				<div class="card-item">
+					<img src="images/flower1.JPG" alt="flower1" />
+					<h2 class="center">SHIPPED IN A BOX</h2>
+					<p>Pumpkin Allspice Bouquet
+					</p>
+					<p>$79</p>
+					<p class="opt-item">
+						<span class="opt-btn" onclick="reduce('1')">-</span>
+						<span id="cat-1">1</span>
+						<span class="opt-btn" onclick="increase('1')">+</span> &nbsp; | &nbsp;
+						<button class="cart-btn">
+							order
+						</button>
+					</p>
+				</div>
+				<div class="card-item">
+					<img src="images/flower2.JPG" alt="flower" />
+					<h2 class="center">FARM-TO-DOOR
+						</h2>
+					<p>Gourmet Fruit, Cheese & Nut Gift Crate
+					</p>
+					<p>$75 - $85</p>
+					<p class="opt-item">
+						<span class="opt-btn" onclick="reduce('2')">-</span>
+						<span id="cat-2">1</span>
+						<span class="opt-btn" onclick="increase('2')">+</span> &nbsp; | &nbsp;
+						<button class="cart-btn">
+							order
+						</button>
+					</p>
+				</div>
+				<div class="card-item">
+					<img src="images/flower3.png" alt="flower" />
+					<h2 class="center">FLORIST-TO-DOOR</h2>
+					<p>Sweet & Pretty Bouquet
+					</p>
+					<p>$39</p>
+					<p class="opt-item">
+						<span class="opt-btn" onclick="reduce('3')">-</span>
+						<span id="cat-3">1</span>
+						<span class="opt-btn" onclick="increase('3')">+</span> &nbsp; | &nbsp;
+						<button class="cart-btn">
+							order
+						</button>
+					</p>
+				</div>
+			</div>
+			<div class="view-more-btn">
+				<a class="cart-btn btn-load-more" href="#">view more products</a>
+			</div>
+		</div>
+	</main>
+	<footer>
+		<p>Copyright © 2022 - All Rights Reserved</p>
+	</footer>
+</body>
+
+</html>

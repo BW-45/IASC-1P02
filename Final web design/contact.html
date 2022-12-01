@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>The flower shop</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+	<header>
+		<div class="head">
+			<h1>Deborahs</h1>
+			<img src="images/avator.png" alt="personal center">
+		</div>
+		<nav>
+			<a href="home.html">Home</a>
+			<a href="menu.html">Menu</a>
+			<a  class="active-link" href="contact.html">Contact</a>
+		</nav>
+	</header>
+
+	<main>
+		<section class="contact">
+			<form class="form-wrap" onsubmit="return validateForm()" action="" method="post">
+				<div class="form_field">
+					<input type="text" name="name" placeholder="name">
+					<span class="error" id="nameErr"></span>
+				</div>
+				<div class="form_field">
+					<input type="text" name="email" placeholder="email">
+					<span class="error" id="emailErr"></span>
+				</div>
+				<div class="form_field">
+					<input type="text" name="mobile" maxlength="11" placeholder="phone">
+					<span class="error" id="mobileErr"></span>
+				</div>
+				<div class="form_field">
+					<textarea name="message" placeholder="Message" placeholder="Message"></textarea>
+				</div>
+				<div>
+					<input type="submit" class="cart-btn" value="submit">
+				</div>
+			</form>
+			<div class="panel">
+				<div id="tab" class="calendar">
+					<ul>
+						<li class="active">
+							<h2>1</h2>
+							<p>JAN</p>
+						</li>
+						<li>
+							<h2>2</h2>
+							<p>FER</p>
+						</li>
+						<li>
+							<h2>3</h2>
+							<p>MAR</p>
+						</li>
+						<li>
+							<h2>4</h2>
+							<p>APR</p>
+						</li>
+						<li>
+							<h2>5</h2>
+							<p>MAY</p>
+						</li>
+						<li>
+							<h2>6</h2>
+							<p>JUN</p>
+						</li>
+						<li>
+							<h2>7</h2>
+							<p>JUL</p>
+						</li>
+						<li>
+							<h2>8</h2>
+							<p>AUG</p>
+						</li>
+						<li>
+							<h2>9</h2>
+							<p>SEP</p>
+						</li>
+						<li>
+							<h2>10</h2>
+							<p>OCT</p>
+						</li>
+						<li>
+							<h2>11</h2>
+							<p>NOV</p>
+						</li>
+						<li>
+							<h2>12</h2>
+							<p>DEC</p>
+						</li>
+					</ul>
+
+					<div class="text">
+						<h2>Lucky flower</h2>
+						<p>snowdrop</p>
+					</div>
+
+				</div>
+				<div class="contact-item">
+					<div class="form_item">
+						<span>Address:</span>
+						<span>184 Main Rd E, St Albans VIC 3021, Australia</span>
+					</div>
+					<div class="form_item">
+						<span>Phone number:</span>
+						<span>123-456-7890</span>
+					</div>
+					<div class="form_item">
+						<span>Have any questions?</span>
+						<span>info@yoursite.com</span>
+					</div>
+					<div class="form_item">
+						<span>We are open:</span>
+						<span>Monday - Friday 10AM - 8PM</span>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer>
+		<p>Copyright © 2022 - All Rights Reserved</p>
+	</footer>
+	<script src="script.js"></script>
+</body>
+
+</html>
